@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>chat</title>
+        <style>
+            html, body {
+                height: 100%;
+                margin: 0;
+            }
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image: url("autumn-wallpaper-1600x900-001.jpg");
+            }
+            #field, #user, #chat {
+                width: 100%;
+                box-sizing: border-box;
+            }
+            #chat {
+                height: 20em;
+                background-image: url("rd.jpg");
+            }
+            #user {
+                background-image: url("ds.jpg");
+            }
+            #field {
+                background-image: url("df.jpg");
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <input type="text" id ="user">
+            <input type="text" id ="field">
+            <textarea id="chat"></textarea>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
